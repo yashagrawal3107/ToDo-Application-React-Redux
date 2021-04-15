@@ -16,9 +16,11 @@ const TodoItem = ({title, description, todoStatus, dueDate,id}) => {
     
     const dispatch = useDispatch()
     
-    const handlecheck = () => {
+    const handlecheck = (e) => {
 
-        dispatch(setCheck(id))
+        const status = e.target.value;
+
+        dispatch(setCheck({id: id, status : status}))
     }
     
 
