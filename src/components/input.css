@@ -1,0 +1,36 @@
+ .Input{
+    height: 50px;
+    width: 80%;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background: none;
+    border: black;
+    height: 30px;
+    border-radius: 10px;
+    border-color: black;
+    margin-left: 12px;
+    flex: 1;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    margin-right: 8px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+}
+.bt {
+    float: right;
+}

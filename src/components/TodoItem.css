@@ -1,0 +1,24 @@
+.todoitem{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: wheat;
+    margin: 6px 4px;
+    height: 40px;
+    border-radius: 17px;
+}
+.todoItem{
+    flex: 1;
+}
+
+.todoItem--done{
+    text-decoration: line-through;
+}
+
+.status{
+    float: right;
+    margin-bottom: 15px;
+}
+.date{
+    float:left
+}
